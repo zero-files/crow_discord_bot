@@ -1,0 +1,5 @@
+--library hxnodejs
+--library Haxicord
+
+--main Main
+--js bin/main.js
