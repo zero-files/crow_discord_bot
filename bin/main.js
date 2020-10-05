@@ -161,7 +161,7 @@ HxOverrides.now = function() {
 var Main = function() { };
 Main.__name__ = true;
 Main.main = function() {
-	var bot = new src_bot_Bot("Njc4NzM5NTM1MDY4Mzk3NTkw.XknLcw.Xf1n3ljOh902HKhnE7NyN4IOzRo",";");
+	var bot = new src_bot_Bot("Njc4NzM5NTM1MDY4Mzk3NTkw.XknLcw.M5XPYXewGf0-Xf0MhClKsFhGcUo",";");
 	bot.onReady = function() {
 		haxe_Log.trace("Estoy funcionando",{ fileName : "Main.hx", lineNumber : 9, className : "Main", methodName : "main"});
 	};

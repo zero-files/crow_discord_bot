@@ -7,7 +7,8 @@
     "crow_discord_bot": "main.js"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "haxe build.hxml",
+    "dev": "npm run build && node ."
   },
   "repository": {
     "type": "git",
