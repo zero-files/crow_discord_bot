@@ -3,7 +3,7 @@ import src.bot.Bot;
 
 class Main {
     static public function main():Void {
-        final bot = new Bot("Njc4NzM5NTM1MDY4Mzk3NTkw.XknLcw.Xf1n3ljOh902HKhnE7NyN4IOzRo", ";");
+        final bot:Bot = new Bot("Njc4NzM5NTM1MDY4Mzk3NTkw.XknLcw.Xf1n3ljOh902HKhnE7NyN4IOzRo", ";");
 
         bot.onReady = function() {
             trace("Estoy funcionando"); 
